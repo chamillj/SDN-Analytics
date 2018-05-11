@@ -1,0 +1,6 @@
+Data/*
+*.ipynb
+.DS_Store
+.idea
+__pycache__/
+*.h5

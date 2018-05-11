@@ -1,2 +1,2 @@
 # SDN-Analytics
-Easily create SDN network with mininet and ODL with data logging enabled
+If you want to do some research on SDN and want to analyse data in SDN, this code can help you. It will enable you to easily create a SDN network with any topology using mininet + ODL and enable data collection in both ODL and Open vSwitch. You have to install mininet and OpenDaylight with tsdr seperately in order to use this code. In order to collect sFLOW data you have to install sflowtoll as well. In addition, you may require to install ElasticSearch DB, Cassandra, tcpreplay etc depending on your requirement.

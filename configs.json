@@ -1,0 +1,21 @@
+{
+    "controller": {
+        "name": "ODL" ,
+        "ip": "127.0.0.1",
+        "ports": {"openflow": 6633, "http": 8181},
+        "api_credentials": {
+            "uname": "admin",
+            "pwd": "admin"
+        }
+    },
+
+    "hosts": ["h1", "h2", "h3"],
+
+    "switches": ["s1"],
+
+    "connections": [
+        {"link" : "('h1','s1')",  "linkparm": {"bw":50}},
+        {"link" : "('h2','s1')",  "linkparm": {"bw":50}},
+        {"link" : "('h3','s1')",  "linkparm": {"bw":50}}
+    ]
+}
